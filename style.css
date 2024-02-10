@@ -1,0 +1,455 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: NokiaPureHeadline, Arial, Helvetica, sans-serif;
+    ;
+}
+
+.head-one {
+    width: 100%;
+    height: 5vh;
+    background-color: #f9f9f9;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.heading-one {
+    position: absolute;
+    width: 20%;
+    right: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading-one a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.head-two {
+    width: 100%;
+    height: 10vh;
+
+    position: relative;
+}
+
+.head-left {
+    width: 15%;
+
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nokia-logo {
+    padding-left: 30px;
+}
+
+.head-middle {
+    width: 70%;
+
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 15%;
+
+}
+
+.heading-two {
+    text-decoration: none;
+    color: #0065ed;
+
+}
+
+.head-right {
+    width: 15%;
+
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 85%;
+
+}
+
+.head-right img {
+    position: absolute;
+    right: 20px;
+}
+
+.video {
+
+    width: 100%;
+    height: 80vh;
+
+}
+
+video {
+    width: 100%;
+
+}
+
+.row-one {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.row-one-one {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 2px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.boy-image {
+    width: 90vh;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+h1,h3 {
+    font-weight: normal;
+   
+
+}
+
+.row-one-two {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    line-height: 2px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+
+.row-two {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row-two-one {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.row-two-two {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.image-three {
+    width: 100%;
+   position: relative;
+    margin-top: 30px;
+    height: 60vh;
+   
+} 
+.row-three-image {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+
+}
+
+h2 {
+    width: 50%;
+    position: absolute;
+    bottom: 2px;
+    top: 100px;
+    font-size: 48px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 50px;
+}
+
+.row-three-row {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 50px;
+}
+
+.three-images {
+    width: 420px;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.row-three-one {
+    width: 30%;
+    height: 100%;
+
+}
+
+.row-three-two {
+    width: 30%;
+    height: 100%;
+   
+}
+
+.row-three-three {
+    width: 30%;
+    height: 100%;
+
+}
+.imaging-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2px;
+    margin-left: 70px;
+}
+.image-four {
+   border-radius: 20px;
+    width: 90%;
+    height: 100vh;
+ 
+}
+
+
+
+.image-five {
+    width: 100%;
+   position: relative;
+    margin-top: 30px;
+    height: 60vh;
+   
+} 
+.row-five-image {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+
+}
+
+h2 {
+    width: 50%;
+    position: absolute;
+    bottom: 2px;
+    top: 100px;
+    font-size: 48px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 50px;
+}
+
+.row-five-row {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 50px;
+    
+}
+
+.five-images {
+    width: 420px;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.row-five-one {
+    width: 30%;
+    height: 100%;
+
+}
+
+.row-five-two {
+    width: 30%;
+    height: 100%;
+   
+}
+
+.row-five-three {
+    width: 30%;
+    height: 100%;
+
+}
+.image-six{
+    width: 100%;
+   
+
+}
+.imaging-six{
+    width: 100%; 
+    height: 40vh;
+}
+footer{
+    background-color:  #f9f9f9;
+}
+.footer-one{
+    height: 20vh;
+    width: 30vh;
+    height: 20vh;
+}
+.imaging-logo{
+    padding-left: 7vh;
+  padding-top: 50px;
+
+}
+.footer-two{
+   width: 100%;
+    height: 20vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-two-left{
+    width: 40%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-right{
+width: 60%;
+height: 20vh;
+
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-one-right{
+    width: 20%;
+    height: 20vh;
+    
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+}
+.foot-two-right{
+    width: 20%;
+    height: 20vh;
+    
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+}   
+.foot-three-right{
+    width: 20%;
+    height: 20vh;
+   
+  
+       
+}   
+.foot-three-right p{
+    margin-top: 40px;
+}
+.footer-three{
+    height: 20vh;
+   
+    display: flex;
+    flex-direction: row;
+
+}
+.foot-three-one{
+width: 30%;
+height: 100%;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+.foot-three-two{
+    width: 50%;
+    height: 100%;
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+ margin-left: 300px;
+}
+button{
+    background-color: transparent;
+    border-color: #0065ed;
+    font-size: large;
+    border-radius: 5px;
+    width:300px;
+    height: 50px;
+    
+}
+
+
+.footer-three a{
+    text-decoration: none;
+    color: rgb(31, 68, 232);
+    font-size: large;
+    font-weight: 700;
+}
+.footer-four{
+ width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+.foot-four{
+    text-decoration: none;
+    color: #666;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 14px;
+}
